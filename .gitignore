@@ -21,7 +21,7 @@
 # /[Aa]ssets/AssetStoreTools*
 
 # Автогенерированный плагин Jetbrains Rider
-/[Aa]ssets/Плагины/Редактор/JetBrains*
+# /[Aa]ssets/Плагины/Редактор/JetBrains*
 
 # Каталог кэша Visual Studio
 .vs/
