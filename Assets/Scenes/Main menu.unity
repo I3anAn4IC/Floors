@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 630481392}
   - component: {fileID: 630481391}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 1355029572}
   - component: {fileID: 1355029571}
   m_Layer: 5
-  m_Name: Options
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1233,9 +1233,7 @@ GameObject:
   - component: {fileID: 1437813142}
   - component: {fileID: 1437813141}
   - component: {fileID: 1437813140}
-  - component: {fileID: 1437813139}
-  - component: {fileID: 1437813138}
-  - component: {fileID: 1437813137}
+  - component: {fileID: 1437813147}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1340,8 +1338,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1437813145}
+  selectedCommands:
+  - {fileID: 1437813147}
   variables: []
   description: 
   stepPause: 0
@@ -1619,75 +1619,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &1437813137
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437813114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 974293533}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &1437813138
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437813114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 24
-  indentLevel: 0
-  storyText: "\u0412 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0435 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1437813139
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437813114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 23
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 974293533}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1437813140
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1802,7 +1733,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 9.260735
-    y: 125.16318
+    y: 123.43904
     width: 94.82756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1812,9 +1743,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1437813140}
   commandList:
-  - {fileID: 1437813139}
-  - {fileID: 1437813138}
-  - {fileID: 1437813137}
+  - {fileID: 1437813147}
   suppressAllAutoSelections: 0
 --- !u!114 &1437813146
 MonoBehaviour:
@@ -1845,6 +1774,25 @@ MonoBehaviour:
   - {fileID: 1437813142}
   - {fileID: 1437813141}
   suppressAllAutoSelections: 0
+--- !u!114 &1437813147
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437813114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Settings
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1490334926
 GameObject:
   m_ObjectHideFlags: 0
