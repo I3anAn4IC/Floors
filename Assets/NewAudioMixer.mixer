@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!245 &-8637618239966732611
-AudioMixerSnapshotController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Snapshot - Copy
-  m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: cd5a991101f45084d82044e62b9b261e
-  m_FloatValues:
-    3c379406db255024b84dc40b67808188: -80
-    c7c82f3e17e4d9c4f9bef8143fe1cc69: 1.42
-  m_TransitionOverrides: {}
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -24,12 +11,13 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
-  - {fileID: -8637618239966732611}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 3c379406db255024b84dc40b67808188
+    name: volume
   m_AudioMixerGroupViews:
   - guids:
     - 64b04f6538d640f4a8749ed64f7738a6
@@ -80,7 +68,7 @@ AudioMixerSnapshotController:
   m_SnapshotID: 62e9e2dc78e431441a8ddbc92b8c3b70
   m_FloatValues:
     3c379406db255024b84dc40b67808188: 20
-    c7c82f3e17e4d9c4f9bef8143fe1cc69: 0.01
+    c7c82f3e17e4d9c4f9bef8143fe1cc69: 1
   m_TransitionOverrides: {}
 --- !u!244 &5593233804222949925
 AudioMixerEffectController:
