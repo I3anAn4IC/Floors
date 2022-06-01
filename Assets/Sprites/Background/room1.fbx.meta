@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1dc878f8240dcb54b81f1d0427c2ce10
+guid: c2fe002570196074ba0c410b615f29d8
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -53,22 +53,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: MA
-    second: {fileID: 2800000, guid: b2db606043851904bbc8d9081f4535f0, type: 3}
+    second: {fileID: 2800000, guid: 41a41dff819fd634d84c22d793eb6f9b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ct
-    second: {fileID: 2800000, guid: e5d1f35ce1803a04094398c778f84091, type: 3}
+    second: {fileID: 2800000, guid: 06c7dd17fc870ec40b9cc3136bab6f51, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ctnrm
-    second: {fileID: 2800000, guid: e02da5bb6b2dfc649a173a760e52d691, type: 3}
+    second: {fileID: 2800000, guid: 72e27655a76c57b4cbba248958b42602, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: manrm
-    second: {fileID: 2800000, guid: 5e94268b71877574d81f5721cffd115e, type: 3}
+    second: {fileID: 2800000, guid: 5ec7d4c335eaa0a4eb1893b961e950dc, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
