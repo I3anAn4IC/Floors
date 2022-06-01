@@ -23,7 +23,7 @@ public class Volumee : MonoBehaviour
 
     public void SetVolume(float sliderValue)
     {
-        var v = -80 + Mathf.Log10(sliderValue) * 100;
+        var v = -80 + sliderValue*100;
         FungusPrefs.SetFloat(0,"Volume", v);
         audioMixer.SetFloat("volume", v);
         FungusPrefs.Save();

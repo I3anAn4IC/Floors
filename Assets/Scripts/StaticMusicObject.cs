@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 public class StaticMusicObject : MonoBehaviour
 {
     public AudioMixer audioMixer;
-    private void Awake()
+    private void Start()
     {
         var audioSources = FungusManager.Instance.GetComponents<AudioSource>();
         var mgroup = audioMixer.FindMatchingGroups("Master").First();
