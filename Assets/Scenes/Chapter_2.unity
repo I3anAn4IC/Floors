@@ -371,7 +371,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -694,11 +694,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 161.31062, y: 129.10434}
+  scrollPos: {x: 364.01822, y: 78.917366}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.79000014
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -706,9 +706,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 827051784}
-  selectedCommands:
-  - {fileID: 827051781}
+  - {fileID: 827051750}
+  selectedCommands: []
   variables:
   - {fileID: 827051777}
   - {fileID: 827051778}
@@ -794,7 +793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 363.69064
     y: 28.582634
-    width: 76.582275
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -857,7 +856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 496.73282
     y: 30.765083
-    width: 98.10126
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1223,7 +1222,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 679.0116
     y: -11.380581
-    width: 133.54428
+    width: 131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1261,7 +1260,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 671.41644
     y: 75.068855
-    width: 153.79745
+    width: 148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1804,7 +1803,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 923.31537
     y: 25.701786
-    width: 98.10126
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
