@@ -1170,7 +1170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.28278
     y: 12.678282
-    width: 110.63829
+    width: 109.21051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1200,7 +1200,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25.009247
     y: 179.88794
-    width: 71.276596
+    width: 69.73683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1258,11 +1258,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 559.08716, y: 112.312096}
+  scrollPos: {x: 732.55414, y: 75.65884}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1270,9 +1270,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1437813142}
+  - {fileID: 1437813119}
   selectedCommands:
-  - {fileID: 1437813139}
+  - {fileID: 1437813132}
   variables:
   - {fileID: 1437813121}
   description: 
@@ -1555,7 +1555,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.96991
     y: 178.1492
-    width: 65.95744
+    width: 65.78947
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1582,7 +1582,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 133.79791
     y: 226.54535
-    width: 72.34042
+    width: 72.368416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1813,7 +1813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255.8064
     y: -19.758911
-    width: 85.106384
+    width: 82.89473
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1855,7 +1855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 9.260735
     y: 123.43904
-    width: 98.93617
+    width: 94.73683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1882,7 +1882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7.9950323
     y: 71.49234
-    width: 103.19148
+    width: 98.6842
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
