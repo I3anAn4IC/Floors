@@ -1035,7 +1035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -811.15, y: -38}
+  m_AnchoredPosition: {x: -960, y: 697.99}
   m_SizeDelta: {x: 1622.3098, y: 382.3456}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &401304703
@@ -1214,6 +1214,9 @@ GameObject:
   - component: {fileID: 477543223}
   - component: {fileID: 477543228}
   - component: {fileID: 477543229}
+  - component: {fileID: 477543230}
+  - component: {fileID: 477543232}
+  - component: {fileID: 477543231}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1235,7 +1238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Points
-  value: 4000
+  value: 0
 --- !u!114 &477543208
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1264,11 +1267,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 662.8349, y: 78.43825}
+  scrollPos: {x: 1636.7134, y: 323.16165}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7900002
+  zoom: 0.40000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1276,7 +1279,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 477543221}
+  - {fileID: 477543222}
   selectedCommands: []
   variables:
   - {fileID: 477543208}
@@ -1383,7 +1386,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 272.52127
     y: 74.57446
-    width: 76.582275
+    width: 79.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1752,7 +1755,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 404.9259
     y: 115.851006
-    width: 98.10126
+    width: 97.49995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1762,6 +1765,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 477543224}
+  - {fileID: 477543232}
+  - {fileID: 477543230}
   suppressAllAutoSelections: 0
 --- !u!114 &477543222
 MonoBehaviour:
@@ -1779,7 +1784,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 409.95737
     y: 28.61702
-    width: 96.835434
+    width: 94.999954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1795,10 +1800,11 @@ MonoBehaviour:
   - {fileID: 477543226}
   - {fileID: 477543229}
   - {fileID: 477543225}
+  - {fileID: 477543231}
   suppressAllAutoSelections: 0
 --- !u!114 &477543223
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1955,7 +1961,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 129082509}
 --- !u!114 &477543228
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1987,7 +1993,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 129082509}
 --- !u!114 &477543229
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2011,6 +2017,78 @@ MonoBehaviour:
   time:
     floatRef: {fileID: 0}
     floatVal: 0
+--- !u!114 &477543230
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477543206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  storyText: "\u0418\u0433\u0440\u0430 \u043E\u043A\u043E\u043D\u0447\u0435\u043D\u0430"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1220499764}
+--- !u!114 &477543231
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477543206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  storyText: "\u0418\u0433\u0440\u0430 \u043E\u043A\u043E\u043D\u0447\u0435\u043D\u0430"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1220499764}
+--- !u!114 &477543232
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477543206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!1 &956270590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2359,7 +2437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTextObject: {fileID: 1767348318}
   punchObject: {fileID: 375883820}
-  writingSpeed: 45
+  writingSpeed: 20
   punctuationPause: 0.1
   hiddenTextColor: {r: 1, g: 1, b: 1, a: 0}
   writeWholeWords: 0
@@ -2647,7 +2725,7 @@ MonoBehaviour:
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_FadeDuration: 0.3
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -2873,7 +2951,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
+    m_Font: {fileID: 12800000, guid: 4176ed5f006c67c439beb7245c2f15a4, type: 3}
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
