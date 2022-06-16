@@ -5,6 +5,8 @@ using UnityEngine.Audio;
 public class Volumee : MonoBehaviour
 {
     public AudioMixer audioMixer;
+    [SerializeField] public UnityEngine.UI.Image image;
+
 
     private void Awake()
     {
@@ -27,5 +29,13 @@ public class Volumee : MonoBehaviour
         FungusPrefs.SetFloat(0,"Volume", v);
         audioMixer.SetFloat("volume", v);
         FungusPrefs.Save();
+        if (sliderValue == 0f)
+        {
+            image.sprite = Resources.Load<Sprite>("non_sound");
+        }
+        else
+        {
+            image.sprite = Resources.Load<Sprite>("sound");
+        }
     }
 }
