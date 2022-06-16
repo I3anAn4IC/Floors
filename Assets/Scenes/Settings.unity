@@ -540,6 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: c1ccbac79ea44c74d9d54f30b4a9a2c5, type: 2}
   image: {fileID: 1323466299}
+  slider: {fileID: 324213920}
 --- !u!4 &406914598
 Transform:
   m_ObjectHideFlags: 0
@@ -611,7 +612,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 622856687}
   selectedCommands: []
   variables: []
   description: 
@@ -652,9 +654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -506.48343
-    y: -67.233604
-    width: 77.63157
+    x: -500
+    y: -60
+    width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

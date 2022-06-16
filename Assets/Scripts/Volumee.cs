@@ -1,12 +1,13 @@
 using Fungus;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class Volumee : MonoBehaviour
 {
     public AudioMixer audioMixer;
-    [SerializeField] public UnityEngine.UI.Image image;
-
+    [SerializeField] public Image image;
+    [SerializeField] private Slider slider; 
 
     private void Awake()
     {
@@ -21,6 +22,13 @@ public class Volumee : MonoBehaviour
             FungusPrefs.Save();
         }
         audioMixer.SetFloat("volume", FungusPrefs.GetFloat(0,"Volume"));
+    }
+
+    private void Start()
+    {
+        if (slider == null) return;
+        var saved = FungusPrefs.GetFloat(0, "Volume");
+        slider.value = (saved + 80) / 100;
     }
 
     public void SetVolume(float sliderValue)
